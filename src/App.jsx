@@ -21,9 +21,9 @@ function App() {
   }
 
   return (
-    <div className='mx-36'>
+    <div className='mx-8 lg:mx-36'>
       <Header></Header>
-        <div className='flex'>
+        <div className='lg:flex'>
           <Blogs handleAddToBookmark={handleAddToBookmark} handleAddToReadTime={handleAddToReadTime}></Blogs>
           <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
         </div>

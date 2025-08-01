@@ -19,7 +19,7 @@ const Blog = ({blog, handleAddToBookmark, handleAddToReadTime}) => {
                     <button onClick={() =>handleAddToBookmark(blog)} className='cursor-pointer text-lg hover:text-red-700'><FaRegBookmark /></button>
                 </div>
             </div>
-            <h1 className='text-3xl font-bold'>{title}</h1>
+            <h1 className='text-xl lg:text-3xl font-bold'>{title}</h1>
             <p>
                 {
                     hashtags.map(hash => <span> <a className='text-gray-500' href=''>#{hash}</a></span>)
