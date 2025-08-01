@@ -6,13 +6,23 @@ Knowledge Cafe is a simple blog-style web application built with **React**, wher
 
 ---
 
+## 🧠 Use Cases
+
+- 📖 Reading tech or educational blog posts
+- ⏲️ Tracking how much time you’ve spent reading
+- 🔖 Bookmarking useful articles for future reference
+- 🛠 Practicing basic React concepts
+
+---
+
 ## 🚀 Features
 
-- 📰 Displays a list of blog posts
-- ⏱️ Tracks total reading time
-- 📌 Bookmark feature for saving posts
-- ⚛️ Built using functional components and React hooks
-- 💻 Clean and responsive UI with CSS
+- 📰 List of blog posts loaded dynamically from JSON
+- 🧩 Each post is displayed as a reusable React component
+- ⏱️ Real-time reading time tracker (adds up when clicking "Mark as Read")
+- 📌 Bookmark functionality with duplicate warning handling
+- 🔄 State lifting and prop drilling are used for state management
+- 🔥 Interactive UI with dynamic updates
 
 ---
 
@@ -29,11 +39,4 @@ Knowledge Cafe is a simple blog-style web application built with **React**, wher
 <img width="1920" height="4117" alt="Knowledge-Cafe-08-02-2025_12_04_AM" src="https://github.com/user-attachments/assets/9563a32b-d070-4978-8fb2-1cecfa1dc28d" />
 
 
----
 
-## 🧑‍💻 Getting Started
-
-### Clone the repository
-```bash
-git clone https://github.com/your-username/knowledge-cafe.git
-cd knowledge-cafe
