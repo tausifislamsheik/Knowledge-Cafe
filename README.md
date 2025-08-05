@@ -1,12 +1,42 @@
-# React + Vite
+# 📚 Knowledge Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Preview:** [knowledge-cafee.surge.sh](http://knowledge-cafee.surge.sh)
 
-Currently, two official plugins are available:
+Knowledge Cafe is a simple blog-style web application built with **React**, where users can read articles, track their reading time, and bookmark favorite posts. It’s a great beginner-friendly project to practice React components, props, and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Use Cases
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📖 Reading tech or educational blog posts
+- ⏲️ Tracking how much time you’ve spent reading
+- 🔖 Bookmarking useful articles for future reference
+- 🛠 Practicing basic React concepts
+
+---
+
+## 🚀 Features
+
+- 📰 List of blog posts loaded dynamically from JSON
+- 🧩 Each post is displayed as a reusable React component
+- ⏱️ Real-time reading time tracker (adds up when clicking "Mark as Read")
+- 📌 Bookmark functionality with duplicate warning handling
+- 🔄 State lifting and prop drilling are used for state management
+- 🔥 Interactive UI with dynamic updates
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+---
+
+## 📸 Screenshots
+
+<img width="1920" height="4117" alt="Knowledge-Cafe-08-02-2025_12_04_AM" src="https://github.com/user-attachments/assets/9563a32b-d070-4978-8fb2-1cecfa1dc28d" />
+
+
+
