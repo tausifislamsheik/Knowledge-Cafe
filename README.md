@@ -1,6 +1,6 @@
 # 📚 Knowledge Cafe
 
-**Live Preview:** [knowledge-cafe-omega.vercel.app]
+**Live Preview:** [knowledge-cafe-omega.vercel.app](http://knowledge-cafe-omega.vercel.app)
 
 Knowledge Cafe is a simple blog-style web application built with **React**, where users can read articles, track their reading time, and bookmark favorite posts. It’s a great beginner-friendly project to practice React components, props, and state management.
 
