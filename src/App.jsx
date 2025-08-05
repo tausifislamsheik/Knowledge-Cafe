@@ -5,8 +5,9 @@ import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './components/Header/Header'
 
 function App() {
-  const [bookmarks, setBookmarks] = useState([])
+  const [bookmarks, setBookmarks] = useState([]);
   const [readingTime, setReadingTime] = useState(0);
+  const [isDark, setDark] = useState(false);
 
 
   const handleAddToBookmark = blog =>{
@@ -20,14 +21,21 @@ function App() {
     setBookmarks(remainingBookmarks);
   }
 
+  const toggleTheme = () =>{
+     setDark(!isDark);
+  }
+
   return (
-    <div className='mx-8 lg:mx-36 mb-28'>
-      <Header></Header>
-        <div className='lg:flex'>
-          <Blogs handleAddToBookmark={handleAddToBookmark} handleAddToReadTime={handleAddToReadTime}></Blogs>
-          <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+    <div className={isDark ? 'dark' : ''}>
+         <div className='bg-primary-color dark:bg-primary-dark-color dark:text-white'>
+        <div className='mx-8 lg:mx-36 pb-28'>
+          <Header toggleTheme={toggleTheme}></Header>
+          <div className='lg:flex pt-10'>
+            <Blogs handleAddToBookmark={handleAddToBookmark} handleAddToReadTime={handleAddToReadTime}></Blogs>
+            <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+          </div>
         </div>
-      
+    </div>
     </div>
   )
 }

@@ -8,6 +8,13 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+    --color-primary-color:#FFFFFF;
+    --color-primary-dark-color:#000000;
+}
+
 
 
 
